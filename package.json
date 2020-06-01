@@ -1,0 +1,19 @@
+{
+  "name": "get-user-friendly-color-name",
+  "version": "1.0.0",
+  "description": "terminal utility to find a name to the color provided",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igorokb/get-color-name.git"
+  },
+  "author": "Igor Bukin",
+  "license": "MIT",
+  "dependencies": {
+    "color-name-list": "^5.28.0",
+    "nearest-color": "^0.4.4"
+  }
+}
