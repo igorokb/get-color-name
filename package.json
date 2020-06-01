@@ -1,6 +1,6 @@
 {
   "name": "get-user-friendly-color-name",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "terminal utility to find a name to the color provided",
   "main": "index.js",
   "scripts": {
