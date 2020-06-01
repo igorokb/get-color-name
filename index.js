@@ -1,4 +1,4 @@
-exports.getUserFriendlyColorName = function() {
+exports.default = function(query) {
 	const nearestColor = require('nearest-color');
 	const namedColors = require('color-name-list');
 	
@@ -8,13 +8,7 @@ exports.getUserFriendlyColorName = function() {
 	const getNearest = nearestColor.from(colors);
 
 	// get closest named color
-	const query = process.argv[2]
 	const nearest = getNearest(query)
 	nearest.upperCaseName = nearest.name.toUpperCase().split(' ').join('_')
-
-	if (process.argv.includes('--full')) {
-		return nearest
-	} else {
-		return nearest.upperCaseName
-	}
+	return nearest
 }

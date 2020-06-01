@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/igorokb/get-color-name.git"
   },
+  "bin": {
+      "clrnm": "./bin/index.js"
+  },
   "author": "Igor Bukin",
   "license": "MIT",
   "dependencies": {
